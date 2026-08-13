@@ -1,0 +1,9 @@
+# Exclude Java notes and lab folders as requested
+DOCS/JAVA NOTES/
+DOCS/LABS/
+
+# Exclude compiled Java classes
+*.class
+
+# Exclude local VS Code configurations
+.vscode/
