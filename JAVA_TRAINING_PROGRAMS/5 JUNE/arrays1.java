@@ -27,7 +27,7 @@ public class arrays1 {
 
         //print in reverse order
         for(int i=arr3.length-1;i>=0;i--){
-            System.out.print(arr3[i]+" ");    
+            System.out.print(arr3[i]+"rev");    
 
             //2D array simple declaration and initialization
             int arr4[][]={{1,2,3},{4,5,6},{7,8,9}}; 

@@ -1,24 +1,19 @@
 import java.util.*;
 
-public class RecursiveBubbleSort{
-    static int Sort(int[] arr, int n){
-           if(n<=0){
-             return 1;
-           }
-            for(int j=n;j>0;j--)
-            {
-                if(arr[j]<arr[j-1])
-                {
-                    int temp= arr[j];
-                    arr[j]=arr[j-1];
-                    arr[j-1]=temp;
-                }
-            }
-           return Sort(arr,n-1);      
+public class InsertionSort {
+    static void Insertion(int[] arr,int n){
+        for(int j=1;j<n;j++){
+            int key=arr[j];
+            int i=j-1;
+        while(i>=0 && arr[i]>key){
+             arr[i+1]=arr[i];
+             i=i-1;
         }
-
-    public static void main(String[] args) {
-       try(Scanner scan=new Scanner(System.in)){
+        arr[i+1]=key;
+    }
+ }
+ public static void main(String args[]){
+     try(Scanner scan=new Scanner(System.in)){
         System.out.print("Enter Size of Array >>>");
         int n=scan.nextInt();
         int arr[]=new int[n];
@@ -31,12 +26,11 @@ public class RecursiveBubbleSort{
         for(int i=0;i<n;i++){
             System.out.print(arr[i]);
         }
-        Sort(arr,n-1);
+        Insertion(arr,n);
         System.out.print("\nAfter Sort >>> ");
         for(int i=0;i<n;i++){
             System.out.print(arr[i]);
         }
     }
-}
-
+ }
 }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JAVA_TRAINING_PROGRAMS/JAVA_TRAINING_PROGRAMS.iml" filepath="$PROJECT_DIR$/JAVA_TRAINING_PROGRAMS/JAVA_TRAINING_PROGRAMS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Java-Basics-to-OOPs.iml" filepath="$PROJECT_DIR$/Java-Basics-to-OOPs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVA_TRAINING_PROGRAMS/PHASE-2 AUG/PHASE-2 AUG.iml" filepath="$PROJECT_DIR$/JAVA_TRAINING_PROGRAMS/PHASE-2 AUG/PHASE-2 AUG.iml" />
+    </modules>
+  </component>
+</project>
