@@ -50,7 +50,9 @@ public class strings123 {
         System.out.println(s1.compareTo(s2));    
         //  it will returns the difference of their ascii values
         
-    
+        System.out.println(s5.indexOf("Y"));
+        System.out.println(s5.replace("Y","z"));
+        
         
     }
 
