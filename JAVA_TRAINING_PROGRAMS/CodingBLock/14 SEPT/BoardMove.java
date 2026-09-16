@@ -6,6 +6,8 @@ public class BoardMove {
      solve(board,0,0,"");
    }
    private static void solve(int[][] board,int row,int col,String ans){
+        String s=ans+" ";
+
        if(row==board.length-1 && col==board[0].length-1){
         System.out.println(ans);
         return;
@@ -17,10 +19,11 @@ public class BoardMove {
        if(col<board[0].length-1){
         solve(board,row,col+1,ans+"H");
        }
-       if(row<board.length-1 && col<board[0].length-1){
+       /*if(row<board.length-1 && col<board[0].length-1){
         solve(board,row+1,col+1,ans+"D");
-       }
-       if(col<board.length)
+       }*/
+      //for backtracking
+       System.out.println(s);
    }
     
 }
