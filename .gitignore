@@ -7,3 +7,5 @@ DOCS/LABS/
 
 # Exclude local VS Code configurations
 .vscode/
+.idea/
+*.iml

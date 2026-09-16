@@ -1,6 +1,9 @@
+import java.util.*;
+
 public class ClimbingStairs {
     public static void main(String args[]){
-        int n=3;
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
         int ways=solve(n,"");
         System.out.println("Ways to CLimb "+ways);
     }
