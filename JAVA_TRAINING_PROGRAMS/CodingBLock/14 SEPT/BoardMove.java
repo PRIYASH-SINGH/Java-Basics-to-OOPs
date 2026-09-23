@@ -19,11 +19,10 @@ public class BoardMove {
        if(col<board[0].length-1){
         solve(board,row,col+1,ans+"H");
        }
-       /*if(row<board.length-1 && col<board[0].length-1){
+       /*if(row<board.length-1 && col<board[0].length-1){        
         solve(board,row+1,col+1,ans+"D");
        }*/
       //for backtracking
-       System.out.println(s);
+      }
    }
-    
-}
+
