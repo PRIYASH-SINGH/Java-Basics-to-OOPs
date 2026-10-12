@@ -1,1 +1,6 @@
-23451
+Stack is Full
+50
+40
+30
+20
+Element at the top10
