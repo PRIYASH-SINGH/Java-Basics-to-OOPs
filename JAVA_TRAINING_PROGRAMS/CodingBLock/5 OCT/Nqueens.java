@@ -43,8 +43,8 @@ public class Nqueens {
         }
         
         // Check upper-left diagonal
-        int r = row - 1;
-        int c = col - 1;
+        int r = row - 1;//why ? 
+        int c = col - 1;//why ? 
         while (r >= 0 && c >= 0) {
             if (board[r][c] == 'Q') {
                 return false;
