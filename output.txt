@@ -1,6 +1,1 @@
-Stack is Full
-50
-40
-30
-20
-Element at the top10
+10 ---> 20 ---> 30 ---> NULL
